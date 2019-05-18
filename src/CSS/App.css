@@ -1,0 +1,86 @@
+.hero {
+  background-image: url('../Images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+}
+.hero-padded {
+  padding: 100px;
+}
+
+button {
+  background-size: cover;
+  background-position: center center;
+  height: 120px;
+  width:120px;
+  margin-top: 8px;
+ vertical-align: middle;
+}
+
+.btn-group {
+ display: inline-flex;
+ flex-wrap: wrap;
+ padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: 50px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#soundcloud {
+    background-image: url('../Images/soundcloud.png');
+}
+
+#spotify{
+    background-image: url('../Images/spotify.jpg');
+}
+
+#instagram {
+  background-image: url("../Images/instagram.png");
+}
+
+#apple {
+  background-image: url("../Images/apple.png");
+}
+
+#hero-overlay {
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.5);
+ top: 0;
+ bottom: 0;
+ height: 100%;
+ width: 100%;
+ z-index:  5;
+}
+
+#title {
+  font-family: 'Lobster';
+  font-size: 54px;
+}
+
+body {
+  margin: 0px;
+}

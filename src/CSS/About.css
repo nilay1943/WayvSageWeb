@@ -1,0 +1,32 @@
+
+h1 {
+  margin-bottom: 5% !important;
+  align-items: baseline;
+
+}
+
+.text {
+  display: inline-block;
+  width: 50%;
+  color: #FFFFFF;
+}
+
+.display-4 {
+  font-size: 300% !important;
+}
+
+img {
+  display: inline-block;
+  width: 30%;
+  margin-left: 10%;
+}
+.jumbotron {
+  padding: 5% !important;
+  text-align: left;
+}
+.even{
+  background-color: #111111!important;
+}
+.odd{
+  background-color: #000000!important;
+}
