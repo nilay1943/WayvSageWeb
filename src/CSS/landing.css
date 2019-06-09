@@ -1,0 +1,90 @@
+
+
+.padded-grid {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+
+}
+
+.groupbtn {
+  grid-column: 1/8;
+  grid-row: 2/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#title {
+  font-family: 'Lobster';
+  font-size: 54px;
+  grid-column:1/8;
+  margin: 0px!important;
+}
+
+button {
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  width:  100px;
+}
+
+#soundcloud {
+    background-image: url('../Images/soundcloud.png');
+    grid-column: 2;
+}
+
+#spotify{
+    background-image: url('../Images/spotify.jpg');
+    grid-column: 3;
+
+}
+
+#instagram {
+  background-image: url("../Images/instagram.png");
+  grid-column: 4;
+}
+
+#apple {
+  background-image: url("../Images/apple.png");
+  grid-column: 5;
+}
+
+
+@media (max-width: 700px) {
+  button {
+    width:  70px !important;
+    height: 70px !important;
+  }
+  #soundcloud {
+      background-image: url('../Images/soundcloud.png');
+      grid-column: 3 !important;
+      grid-row: 2;
+  }
+
+  #spotify{
+      background-image: url('../Images/spotify.jpg');
+      grid-column: 3;
+
+  }
+
+  #instagram {
+    background-image: url("../Images/instagram.png");
+    grid-column: 4;
+  }
+
+  #apple {
+    background-image: url("../Images/apple.png");
+    grid-column:4 !important;
+    grid-row: 2;
+  }
+
+  #title {
+    font-size: 40px !important;
+  }
+
+}

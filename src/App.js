@@ -6,23 +6,23 @@ import LandingPage from './Pages/landing.js'
 import About from './Pages/About.js'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
+  Switch,
   Link
 } from 'react-router-dom'
 
 class App extends Component {
+
   render() {
     return (
-      <Router>
-        <div className='App'>
+      <Router basename="/">
+        <div className='App hero'>
           <Navbar/>
-          <Route exact path='/' component={LandingPage} />
-          <Route exact path='/Home' component={LandingPage} />
-          <Route exact path='/LandingPage' component={LandingPage} />
-          <Route exact path='/About' component={About} />
+          <Route exact path='/'component={LandingPage} />
+          <Route path ='/About' component={About} />
         </div>
-        </Router>
+      </Router>
     );
   }
 }

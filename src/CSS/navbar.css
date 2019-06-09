@@ -1,0 +1,54 @@
+.navbar,
+.navbar-default {
+    background-image: none !important;
+    background-color: #000000;
+    font-family: 'Lobster';
+
+}
+.nav-link{
+  color: #FFFFFF !important;
+  font-size: 24px;
+}
+
+.nav-item
+{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.nav-item:hover
+{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.navbar-brand {
+  font-size: 36px !important;
+}
+
+.navbar-toggler {
+width: 80px;
+height: 80px;
+}
+
+
+
+@media all and (max-width: 700px) {
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+  .nav-link {
+    font-size: 24px!important;
+    }
+
+  .navbar-toggler {
+
+  width: 30px!important;
+  height: 30px!important;
+  padding: 0px !important;
+  }
+  .navbar-toggler-icon {
+    display: block !important;
+    width: 90% !important;
+    height: 90% !important;
+  }
+}

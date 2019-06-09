@@ -1,31 +1,49 @@
 
-h1 {
-  margin-bottom: 5% !important;
-  align-items: baseline;
+@media (min-width: 900px) {
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .About-me{
+    flex: 1;
+    max-width: 45% ;
+  }
 
-}
+  .jumbotron {
+    text-align: left !important;
+  }
+  img {
+    flex: 1;
+    height: 500px !important ;
+    object-fit: contain;
 
-.text {
-  display: inline-block;
-  width: 50%;
-  color: #FFFFFF;
-}
-
-.display-4 {
-  font-size: 300% !important;
+  }
 }
 
 img {
-  display: inline-block;
-  width: 30%;
-  margin-left: 10%;
+  width: 200px;
+  height: 300px;
+}
+
+.display-4 {
+  font-size: 46px !important;
+
 }
 .jumbotron {
   padding: 5% !important;
-  text-align: left;
+  text-align: center;
+  margin: 0px !important;
+  color: #FFFFFF;
+  font-family: 'viga', cursive;
+}
+
+.About-text {
+  font-size: 24px;
 }
 .even{
   background-color: #111111!important;
+
 }
 .odd{
   background-color: #000000!important;

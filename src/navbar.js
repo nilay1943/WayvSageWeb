@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-import "./CSS/mycss.css"
+import "./CSS/navbar.css"
 
 class NavbarComp extends Component {
   constructor(props) {
@@ -31,15 +31,15 @@ class NavbarComp extends Component {
       return (
         <div>
           <Navbar className="navbar-dark" light expand="lg">
-              <NavbarBrand href="/">Wayv $age</NavbarBrand>
+              <NavbarBrand href='#/'>Wayv $age</NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink href="/">Home</NavLink>
+                    <NavLink href= '#/' onClick={this.toggle}>Home</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="/About">About</NavLink>
+                    <NavLink href='#/About'  onClick={this.toggle}>About</NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
