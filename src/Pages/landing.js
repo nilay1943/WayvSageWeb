@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../CSS/landing.css'
-import  {Button, ButtonGroup }  from 'reactstrap';
+import  {Button}  from 'reactstrap';
 
 class LandingPage extends Component {
   render() {
@@ -9,7 +9,7 @@ class LandingPage extends Component {
         <div className="padded-grid">
           <h1 id='title'> Wayv $age Hub </h1>
           <div className="groupbtn">
-          
+
             <Button id="soundcloud" onClick={() => window.open('https://soundcloud.com/wayvsage')}></Button>
             <Button id="spotify" onClick={() => window.open('https://open.spotify.com/artist/1FBibpKxMFn0pxeJgueDJi')}></Button>
             <Button id="instagram" onClick={() => window.open('https://www.instagram.com/wayvsage/')}></Button>

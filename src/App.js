@@ -7,9 +7,7 @@ import About from './Pages/About.js'
 
 import {
   HashRouter as Router,
-  Route,
-  Switch,
-  Link
+  Route
 } from 'react-router-dom'
 
 class App extends Component {

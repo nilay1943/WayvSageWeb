@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../CSS/About.css'
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron} from 'reactstrap';
 
 class About extends Component {
   render() {

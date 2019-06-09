@@ -20,7 +20,10 @@
  z-index:  5;
 }
 
+@-ms-viewport {
+width: device-width;
 
+}
 
 body {
   margin: 0px;
