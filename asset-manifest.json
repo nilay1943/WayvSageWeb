@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.b83c6d57.chunk.css",
+    "main.css": "/test/static/css/main.f26c81a5.chunk.css",
     "main.js": "/test/static/js/main.3c4afb40.chunk.js",
     "main.js.map": "/test/static/js/main.3c4afb40.chunk.js.map",
     "runtime~main.js": "/test/static/js/runtime~main.eded8796.js",
@@ -9,12 +9,12 @@
     "static/js/2.14ae5264.chunk.js": "/test/static/js/2.14ae5264.chunk.js",
     "static/js/2.14ae5264.chunk.js.map": "/test/static/js/2.14ae5264.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.c5b68eb1ff2d238a81121b38869c82e2.js": "/test/precache-manifest.c5b68eb1ff2d238a81121b38869c82e2.js",
+    "precache-manifest.49373e7a4e2f014e73bc941b14b8c1cc.js": "/test/precache-manifest.49373e7a4e2f014e73bc941b14b8c1cc.js",
     "service-worker.js": "/test/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/test/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.b83c6d57.chunk.css.map": "/test/static/css/main.b83c6d57.chunk.css.map",
+    "static/css/main.f26c81a5.chunk.css.map": "/test/static/css/main.f26c81a5.chunk.css.map",
     "static/media/AboutPageImage.jpg": "/test/static/media/AboutPageImage.a263b624.jpg",
-    "static/media/App.css": "/test/static/media/background.ddf580b6.jpg",
-    "static/media/landing.css": "/test/static/media/spotify.e6fc6383.jpg"
+    "static/media/landing.css": "/test/static/media/spotify.e6fc6383.jpg",
+    "static/media/App.css": "/test/static/media/background.ddf580b6.jpg"
   }
 }
