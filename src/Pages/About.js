@@ -20,7 +20,7 @@ class About extends Component {
           <Jumbotron fluid className="odd">
               <div >
                 <h1 className="display-4">Contact</h1>
-                <a  className="About-text" href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=sagemusicbusiness@gmail.com' className="lead">sagemusicbusiness@gmail.com</a>
+                <a  className="About-text" href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=wayvsage@gmail.com' className="lead">sagemusicbusiness@gmail.com</a>
               </div>
           </Jumbotron>
         </div>
